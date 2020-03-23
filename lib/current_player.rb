@@ -8,4 +8,5 @@ count = 0
  end
 end
 puts count
+return count
 end
