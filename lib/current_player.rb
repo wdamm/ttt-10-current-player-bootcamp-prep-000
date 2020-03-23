@@ -7,7 +7,6 @@ count = 0
    count += 1
  end
 end
-puts count
 return count
 end
 
