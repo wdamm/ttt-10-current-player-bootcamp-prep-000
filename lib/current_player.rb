@@ -10,3 +10,9 @@ end
 puts count
 return count
 end
+
+
+def current_player(count)
+  if count.even? == true
+    return "X"
+    elsif count.odd?
