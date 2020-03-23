@@ -12,9 +12,9 @@ end
 
 
 def current_player(count)
-  if count.odd? == true
+  if count % 2 == 0
     return "X"
-    elsif count.even? == true
+  else
     return "O"
   end
 end
