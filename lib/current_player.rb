@@ -3,7 +3,7 @@
 def turn_count(board)
 count = 0
  board.each do |space|
-  puts "#{space}"
+  if space == "X"
    count += 1
 end
 puts count
