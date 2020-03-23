@@ -11,7 +11,7 @@ puts count
 return count
 end
 
-count = turn_count(board)
+def count = turn_count(board)
 
 def current_player(count)
   if count.even? == true
